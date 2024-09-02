@@ -17,10 +17,10 @@ interface IERC20{
 
 }
 
-contract DIOToken is IERC20{
+contract BIOCoin is IERC20{
 
-    string public constant name = "DIO Token";
-    string public constant symbol = "DIO";
+    string public constant name = "BIOT Coin";
+    string public constant symbol = "BIOT";
     uint8 public constant decimals = 18;
 
     mapping (address => uint256) balances;
